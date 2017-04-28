@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1039468169612",
+    "firebase_url": "https://notdefterim-bb5f3.firebaseio.com",
+    "project_id": "notdefterim-bb5f3",
+    "storage_bucket": "notdefterim-bb5f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039468169612:android:2999e8cd097cc5fc",
+        "android_client_info": {
+          "package_name": "com.meltemyilmaz.gelecegiyazanlar.notdefterim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039468169612-ope3b2ufhq4a7ajmvms6p701a3t3uia2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.meltemyilmaz.gelecegiyazanlar.notdefterim",
+            "certificate_hash": "48b530dc4004fa5efbc1c3aecb98b484d59dc39a"
+          }
+        },
+        {
+          "client_id": "1039468169612-qubqroqmtcm9am16jbi3m3d957hlom17.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVcHkdoqh06EtHYtW63AswqpbcXVlU2LY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1039468169612-qubqroqmtcm9am16jbi3m3d957hlom17.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

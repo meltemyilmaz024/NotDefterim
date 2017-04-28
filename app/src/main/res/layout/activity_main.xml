@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:background="@color/myAmber"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="Note Ekleme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_red_light"
+        android:textColorHint="@android:color/black"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/textInfo" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:id="@+id/editTextYeniNot"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:layout_gravity="center_horizontal"
+        android:hint="Yeni Notunuzu giriniz.." />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+        <Button
+            android:id="@+id/btn_ekle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/myBlue"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center_horizontal"
+            android:text="Yeni Not EKLE" />
+
+        <Button
+            android:id="@+id/btn_listele"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:background="@color/myRed"
+            android:layout_toRightOf="@+id/ekleBtn"
+            android:layout_gravity="center_horizontal"
+            android:text="Notları Listele" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/noteListID"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@android:color/white"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+
+</LinearLayout>
